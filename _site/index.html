@@ -17,62 +17,50 @@
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="Moonwalk is a fast and elegant Jekyll theme with a clean dark mode. It comes with horizontal list (for navbar and footer), card list (for portfolio), and a generic vertical list. It is very easy to modify in case you want to build over it - please see _layouts/home.html to do that." />
 <meta property="og:description" content="Moonwalk is a fast and elegant Jekyll theme with a clean dark mode. It comes with horizontal list (for navbar and footer), card list (for portfolio), and a generic vertical list. It is very easy to modify in case you want to build over it - please see _layouts/home.html to do that." />
-<link rel="canonical" href="https://erquint.github.io/moonwalk/" />
-<meta property="og:url" content="https://erquint.github.io/moonwalk/" />
+<link rel="canonical" href="https://erquint.github.io/ccc/" />
+<meta property="og:url" content="https://erquint.github.io/ccc/" />
 <meta property="og:site_name" content="Commie Coder Colony" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Commie Coder Colony" />
 <meta name="twitter:site" content="@" />
 <meta name="twitter:creator" content="@Murad "Gness Erquint" Beybalaev" />
 <script type="application/ld+json">
-{"@type":"WebSite","url":"https://erquint.github.io/moonwalk/","headline":"Commie Coder Colony","name":"Commie Coder Colony","author":{"@type":"Person","name":"Murad \"Gness Erquint\" Beybalaev"},"description":"Moonwalk is a fast and elegant Jekyll theme with a clean dark mode. It comes with horizontal list (for navbar and footer), card list (for portfolio), and a generic vertical list. It is very easy to modify in case you want to build over it - please see _layouts/home.html to do that.","@context":"https://schema.org"}</script>
+{"@type":"WebSite","headline":"Commie Coder Colony","url":"https://erquint.github.io/ccc/","name":"Commie Coder Colony","author":{"@type":"Person","name":"Murad \"Gness Erquint\" Beybalaev"},"description":"Moonwalk is a fast and elegant Jekyll theme with a clean dark mode. It comes with horizontal list (for navbar and footer), card list (for portfolio), and a generic vertical list. It is very easy to modify in case you want to build over it - please see _layouts/home.html to do that.","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
-  <link type="application/atom+xml" rel="alternate" href="https://erquint.github.io/moonwalk/feed.xml" title="Commie Coder Colony" />
+  <link type="application/atom+xml" rel="alternate" href="https://erquint.github.io/ccc/feed.xml" title="Commie Coder Colony" />
 
   <link rel="shortcut icon" type="image/x-icon" href="//logo.png" />
   <link rel="stylesheet" href="/assets/css/main.css" />
   
-    <script type="text/javascript">
-  window.addEventListener('load', themeChange);
-  const currentTheme = localStorage.getItem('theme') ? localStorage.getItem('theme') : null;
-  if (currentTheme)
-    document.documentElement.setAttribute('data-theme', currentTheme);
-
-  function themeChange() {
-    let button = document.querySelector('.theme-toggle');
-
-    button.addEventListener('click', function (e) {
-      let currentTheme = document.documentElement.getAttribute('data-theme');
-      if (currentTheme === 'dark') {
-        transition();
-        document.documentElement.setAttribute('data-theme', 'light');
-        localStorage.setItem('theme', 'light');
-      } else {
-        transition();
-        document.documentElement.setAttribute('data-theme', 'dark');
-        localStorage.setItem('theme', 'dark');
-      }
-    });
-
-    let transition = () => {
-      document.documentElement.classList.add('transition');
-      window.setTimeout(() => {
-        document.documentElement.classList.remove('transition');
-      }, 1000);
-    }
-  }
-</script>
-
-
-  
 </head>
 <body>
     <main class="page-content" aria-label="Content">
-      <div class="w">
+      <div class="main-div">
         <header>
 
   <ul class="horizontal-list">
+  
+    <li>
+      <a href="about">
+        About
+      </a>
+      &nbsp;&nbsp;
+    </li>
+  
+    <li>
+      <a href="blog">
+        Blog
+      </a>
+      &nbsp;&nbsp;
+    </li>
+  
+    <li>
+      <a href="tags">
+        Tags
+      </a>
+      &nbsp;&nbsp;
+    </li>
   
 </ul>
 
@@ -100,51 +88,44 @@
     
       <li class="post-list-item">
         <span class="home-date">
-          2021-09-19»
+          2021-09-19
         </span>
         <a href="/badger.html">Badger</a>
       </li>
     
       <li class="post-list-item">
         <span class="home-date">
-          2021-03-04»
+          2021-09-18
         </span>
-        <a href="/soopr.html">Soopr</a>
+        <a href="/outer-wilds-ending-review.html">Outer Wilds Ending Review</a>
       </li>
     
-      <li class="post-list-item">
-        <span class="home-date">
-          2021-01-08»
-        </span>
-        <a href="/code.html">Code</a>
+  </ul>
+
+
+
+
+
+  <h3>Tags</h3>
+  
+  <ul>
+    
+      <li>
+        <h4>colony</h4>
+        <ul>
+          
+            <li><a href="/outer-wilds-ending-review.html">Outer Wilds Ending Review</a></li>
+          
+        </ul>
       </li>
     
-      <li class="post-list-item">
-        <span class="home-date">
-          2020-07-09»
-        </span>
-        <a href="/post-example-with-headings-and-toc.html">Post Example With Headings And Toc</a>
-      </li>
-    
-      <li class="post-list-item">
-        <span class="home-date">
-          2020-07-08»
-        </span>
-        <a href="/very-very-very-long-title-and-very-very-very-short-content.html">Very Very Very Long Title And Very Very Very Short Content</a>
-      </li>
-    
-      <li class="post-list-item">
-        <span class="home-date">
-          2020-07-08»
-        </span>
-        <a href="/language-tests.html">Language Tests</a>
-      </li>
-    
-      <li class="post-list-item">
-        <span class="home-date">
-          2020-07-07»
-        </span>
-        <a href="/overview-post.html">Overview Post</a>
+      <li>
+        <h4>spoiler</h4>
+        <ul>
+          
+            <li><a href="/outer-wilds-ending-review.html">Outer Wilds Ending Review</a></li>
+          
+        </ul>
       </li>
     
   </ul>
@@ -180,23 +161,11 @@
 
 
         
-          <button title="Toggle Theme" class="theme-toggle">
-  <svg viewBox="0 0 32 32" width="24" height="24" fill="currentcolor">
-    <circle cx="16" cy="16" r="14" fill="none" stroke="currentcolor" stroke-width="4"></circle>
-    <path d="
-             M 16 0
-             A 16 16 0 0 0 16 32
-             z">
-    </path>
-  </svg>
-</button>
-
-        
-        <div class="credits">&copy;&nbsp;2021&nbsp;Murad "Gness Erquint" Beybalaev
-          &nbsp;
-          •
-          &nbsp;Theme&nbsp; <a href="https://github.com/abhinavs/moonwalk" target="_blank" rel="noreferrer">Moonwalk</a>
+        <div class="credits">
+          
+          &copy; 2021 Murad "Gness Erquint" Beybalaev&emsp;&bull; Modified <a href="https://github.com/abhinavs/moonwalk" target="_blank" rel="noreferrer">Moonwalk</a> theme (<a href="/LICENSE.txt">License<a>)
         </div>
       </div>
-    </main></body>
+    </main>
+  </body>
 </html>
