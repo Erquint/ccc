@@ -1,0 +1,18 @@
+<p id="post-header" class="text-bold text-upcase">
+  {% if page.date %}
+    <span id="written">Written</span>
+    <span id="edited">{{ page.date | date: site.theme_config.timedate_format }}</span>
+  {% endif %}
+  {% if page.edit %}
+    <span id="written-date">Edited</span>
+    <span id="edited-date">{{ page.edit | date: site.theme_config.timedate_format }}</span>
+  {% endif %}
+  {% if page.tags.size > 0 %}
+    <span id="tags">Tags</span>
+    <span id="tags-list">
+      {% for tag in page.tags %}
+        <span>{{ tag }} |</span>
+      {% endfor %}
+    </span>
+  {% endif %}
+</p>
