@@ -8,6 +8,7 @@ body {
   min-height: 100%;
 }
 pre, code {
+  font-family: Consolas, Inconsolata, Courier New, monospace;
   font-size: 0.9rem;
 }
 
@@ -207,4 +208,18 @@ p code, li code {
   a:hover {
     color: var(--links);
   }
+}
+
+summary {
+  cursor: pointer;
+  color: var(--links);
+  &:hover {
+    background-color: var(--highlight);
+    color: var(--headings);
+  }
+}
+
+.wrap-code code {
+  white-space: pre-wrap;
+  // word-break: break-word;
 }
