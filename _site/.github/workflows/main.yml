@@ -1,5 +1,6 @@
 name: Deploy to GitHub Pages from @gh-pages/_site to @master/
 on:
+  workflow_dispatch:
   push:
     branches:
       - gh-pages
