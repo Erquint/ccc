@@ -12,6 +12,7 @@ title: About
 I oughtta give a better description later, but for now, let's disambiguate the title and direction.
 * Commie stands for my Stalinist outlook on politics, socio-economics and culture.
 * Coder stands for my Rubyist outlook on coding, assembly debugging and IT as a whole.
-* Colony is a tricky one, it stands for indie-gamer outlook on gaming, related media and the industry.
+* Colony stands for indie-gamer outlook on gaming, related media and the industry.
+Has to do with my appreciation of the colony-management genre among many others.
 
-Discord: Erquint#3476
+Feel free to contact me at Discord: Erquint#3476
