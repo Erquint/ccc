@@ -4,7 +4,7 @@ published: true
 title: Potion Craft deal cost composition
 tags: colony coder
 date: 2022-01-06 13:54:15 +0300
-edit: 2022-01-07 23:05:21 +0300
+edit: 2022-01-08 01:08:71 +0300
 ---
 
 1. TOC
@@ -25,7 +25,7 @@ Made a [calculator on Desmos]!
 That's how it's supposed to look with the semi-graphical selector.
 Zoom and drag around if you can't see it.
 You can inspect the formulae and data used in them under collapsible folders.
-Current version (4) doesn't account for conflicts and multiple effects of the same tier.
+Current version (5) doesn't account for conflicts and multiple effects of the same tier.
 
 ## Deal example
 
@@ -1747,14 +1747,14 @@ You do not get any credit for effects the customer wasn't seeking, but they don'
 ```
 {% enddetails %}{:.wrap-code}
 
-[calculator on Desmos]: https://www.desmos.com/calculator/76nlii9npx
+[calculator on Desmos]: https://www.desmos.com/calculator/wi6kmo3pz0
 [Potion Craft: Alchemist Simulator]: https://store.steampowered.com/app/1210320/Potion_Craft_Alchemist_Simulator/
 [dnSpy]: https://github.com/dnSpy/dnSpy
 [AssetStudio]: https://github.com/Perfare/AssetStudio
 [screenshot-talent]: <images/Desktop Screenshot 2022.01.06 - 14.40.01.18.png>
 [screenshot-popularity]: <images/Desktop Screenshot 2022.01.06 - 14.40.58.38.png>
 [screenshot-deal]: <images/Desktop Screenshot 2022.01.06 - 15.53.34.58.png>
-[screenshot-desmos]: <images/0TqZNfy.png>
+[screenshot-desmos]: <images/Desktop Screenshot 2022.01.08 - 00.45.18.49.png>
 [example]: <#deal-example>
 [effects]: <#effects>
 [effect tiers]: <#tiers>
