@@ -4,7 +4,7 @@ published: true
 title: Potion Craft deal cost composition
 tags: colony coder
 date: 2022-01-06 13:54:15 +0300
-edit: 2022-01-06 21:40:47 +0300
+edit: 2022-01-07 23:05:21 +0300
 ---
 
 1. TOC
@@ -158,13 +158,13 @@ But frost is an offensive effect and conflicts with pretty much all other catego
 Levitation is worth much more nominal value than bounce.
 So you're best off making Levitation III + Bounce II potion.
 
-Terrible mixes:
+Terrible mixes (both effects lose a tier):
 * Fire with frost.
 * Offensive with restorative or fertilizers.
 * Sedative with buffs or fertilizers.
 * Necromancy with anything.
 
-Bad mixes:
+Bad mixes (one of the effects loses a tier):
 * Offensive with buffs or sedative.
 * Fertilizers with restorative or buffs.
 
@@ -205,7 +205,7 @@ Stoneskin counts as restorative but mixes badly rather than terrible with sedati
 ### Trading talent
 
 Trading talent is applied in a weird way.
-Under the hood it decreases the denominator of the potion's cost that starts at `4` by `0.2` per talent tier.
+Under the hood it decreases the denominator of the potion's cost by `0.2` per talent tier starting at `4` nominally.
 
 * 0     `4`
 * I     `3.8`
@@ -239,7 +239,7 @@ You start at a bonus factor of `1` and then at popularity tiers 1, 5, 7, 10, 13 
 * 15  + `0.1`  = `1.6`   (+60%)
 * 16+ + `0.01` = `1.61`  (+61%)
 …
-* 999 + `0.01` = `11.43` (+1143%)
+* 999 + `0.01` = `11.43` (+1043%)
 
 I believe, all tiers after 15 are designated as "paragon" tiers and continue up to 999.
 

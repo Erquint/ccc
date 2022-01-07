@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://erquint.github.io/ccc/feed.xml" rel="self" type="application/atom+xml" /><link href="https://erquint.github.io/ccc/" rel="alternate" type="text/html" /><updated>2022-01-07T19:37:56+03:00</updated><id>https://erquint.github.io/ccc/feed.xml</id><title type="html">Commie Coder Colony</title><subtitle>Under construction. Blog appearance and structure subject to change.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://erquint.github.io/ccc/feed.xml" rel="self" type="application/atom+xml" /><link href="https://erquint.github.io/ccc/" rel="alternate" type="text/html" /><updated>2022-01-07T23:06:06+03:00</updated><id>https://erquint.github.io/ccc/feed.xml</id><title type="html">Commie Coder Colony</title><subtitle>Under construction. Blog appearance and structure subject to change.
 </subtitle><author><name>Murad &amp;quot;Gness Erquint&amp;quot; Beybalaev</name></author><entry><title type="html">Potion Craft deal cost composition</title><link href="https://erquint.github.io/ccc/potion-craft-deal-cost-composition.html" rel="alternate" type="text/html" title="Potion Craft deal cost composition" /><published>2022-01-06T13:54:15+03:00</published><updated>2022-01-06T13:54:15+03:00</updated><id>https://erquint.github.io/ccc/potion-craft-deal-cost-composition</id><content type="html" xml:base="https://erquint.github.io/ccc/potion-craft-deal-cost-composition.html">&lt;ol id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#manifest&quot; id=&quot;markdown-toc-manifest&quot;&gt;Manifest&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#legal-matter&quot; id=&quot;markdown-toc-legal-matter&quot;&gt;Legal matter&lt;/a&gt;&lt;/li&gt;
@@ -191,7 +191,7 @@ But frost is an offensive effect and conflicts with pretty much all other catego
 Levitation is worth much more nominal value than bounce.&lt;br /&gt;
 So you’re best off making Levitation III + Bounce II potion.&lt;/p&gt;
 
-&lt;p&gt;Terrible mixes:&lt;/p&gt;
+&lt;p&gt;Terrible mixes (both effects lose a tier):&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Fire with frost.&lt;/li&gt;
   &lt;li&gt;Offensive with restorative or fertilizers.&lt;/li&gt;
@@ -199,7 +199,7 @@ So you’re best off making Levitation III + Bounce II potion.&lt;/p&gt;
   &lt;li&gt;Necromancy with anything.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Bad mixes:&lt;/p&gt;
+&lt;p&gt;Bad mixes (one of the effects loses a tier):&lt;/p&gt;
 &lt;ul&gt;
   &lt;li&gt;Offensive with buffs or sedative.&lt;/li&gt;
   &lt;li&gt;Fertilizers with restorative or buffs.&lt;/li&gt;
@@ -241,7 +241,7 @@ Stoneskin counts as restorative but mixes badly rather than terrible with sedati
 &lt;h3 id=&quot;trading-talent&quot;&gt;Trading talent&lt;/h3&gt;
 
 &lt;p&gt;Trading talent is applied in a weird way.&lt;br /&gt;
-Under the hood it decreases the denominator of the potion’s cost that starts at &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;4&lt;/code&gt; by &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;0.2&lt;/code&gt; per talent tier.&lt;/p&gt;
+Under the hood it decreases the denominator of the potion’s cost by &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;0.2&lt;/code&gt; per talent tier starting at &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;4&lt;/code&gt; nominally.&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;0     &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;4&lt;/code&gt;&lt;/li&gt;
@@ -278,7 +278,7 @@ You start at a bonus factor of &lt;code class=&quot;language-plaintext highlight
   &lt;li&gt;15  + &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;0.1&lt;/code&gt;  = &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;1.6&lt;/code&gt;   (+60%)&lt;/li&gt;
   &lt;li&gt;16+ + &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;0.01&lt;/code&gt; = &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;1.61&lt;/code&gt;  (+61%)&lt;br /&gt;
 …&lt;/li&gt;
-  &lt;li&gt;999 + &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;0.01&lt;/code&gt; = &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;11.43&lt;/code&gt; (+1143%)&lt;/li&gt;
+  &lt;li&gt;999 + &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;0.01&lt;/code&gt; = &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;11.43&lt;/code&gt; (+1043%)&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;p&gt;I believe, all tiers after 15 are designated as “paragon” tiers and continue up to 999.&lt;/p&gt;
