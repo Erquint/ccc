@@ -3,7 +3,8 @@
 
 title: Commie Coder Colony
 author: Murad &quot;Gness Erquint&quot; Beybalaev
-url: https://erquint.github.io/ccc # root address of the site
+url: https://erquint.github.io # root address of the site
+baseurl: /ccc
 description: > # description of the site (multiple lines allowed)
   Under construction. Blog appearance and structure subject to change.
 
