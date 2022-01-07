@@ -2,7 +2,7 @@
 # $env:JEKYLL_ENV="production"; bundle exec jekyll build
 
 title: Commie Coder Colony
-author: Murad "Gness Erquint" Beybalaev
+author: Murad &quot;Gness Erquint&quot; Beybalaev
 url: https://erquint.github.io/ccc # root address of the site
 description: > # description of the site (multiple lines allowed)
   Under construction. Blog appearance and structure subject to change.
@@ -10,9 +10,6 @@ description: > # description of the site (multiple lines allowed)
 permalink: /:slug.html
 
 favicon: "./logo.png" # relative path to site's favicon
-
-twitter:
-    card: summary_large_image
 
 plugins:
   - jekyll-feed
