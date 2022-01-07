@@ -3,7 +3,7 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - gh-pages
+      - master
 
 jobs:
   deploy:
@@ -16,6 +16,6 @@ jobs:
       uses: s0/git-publish-subdir-action@develop
       env:
         REPO: git@github.com:owner/repo.git
-        BRANCH: master
+        BRANCH: gh-pages
         FOLDER: _site
         SSH_PRIVATE_KEY: ${{ secrets.DEPLOY_PRIVATE_KEY }}
