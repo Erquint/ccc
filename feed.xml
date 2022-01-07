@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://erquint.github.io/ccc/feed.xml" rel="self" type="application/atom+xml" /><link href="https://erquint.github.io/ccc/" rel="alternate" type="text/html" /><updated>2022-01-07T23:06:06+03:00</updated><id>https://erquint.github.io/ccc/feed.xml</id><title type="html">Commie Coder Colony</title><subtitle>Under construction. Blog appearance and structure subject to change.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://erquint.github.io/ccc/feed.xml" rel="self" type="application/atom+xml" /><link href="https://erquint.github.io/ccc/" rel="alternate" type="text/html" /><updated>2022-01-08T00:47:37+03:00</updated><id>https://erquint.github.io/ccc/feed.xml</id><title type="html">Commie Coder Colony</title><subtitle>Under construction. Blog appearance and structure subject to change.
 </subtitle><author><name>Murad &amp;quot;Gness Erquint&amp;quot; Beybalaev</name></author><entry><title type="html">Potion Craft deal cost composition</title><link href="https://erquint.github.io/ccc/potion-craft-deal-cost-composition.html" rel="alternate" type="text/html" title="Potion Craft deal cost composition" /><published>2022-01-06T13:54:15+03:00</published><updated>2022-01-06T13:54:15+03:00</updated><id>https://erquint.github.io/ccc/potion-craft-deal-cost-composition</id><content type="html" xml:base="https://erquint.github.io/ccc/potion-craft-deal-cost-composition.html">&lt;ol id=&quot;markdown-toc&quot;&gt;
   &lt;li&gt;&lt;a href=&quot;#manifest&quot; id=&quot;markdown-toc-manifest&quot;&gt;Manifest&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;#legal-matter&quot; id=&quot;markdown-toc-legal-matter&quot;&gt;Legal matter&lt;/a&gt;&lt;/li&gt;
@@ -37,12 +37,12 @@
 
 &lt;h2 id=&quot;tldr&quot;&gt;TL;DR&lt;/h2&gt;
 
-&lt;p&gt;Made a &lt;a href=&quot;https://www.desmos.com/calculator/76nlii9npx&quot;&gt;calculator on Desmos&lt;/a&gt;!&lt;br /&gt;
-&lt;img src=&quot;images/0TqZNfy.png&quot; alt=&quot;screenshot-desmos&quot; /&gt;&lt;br /&gt;
+&lt;p&gt;Made a &lt;a href=&quot;https://www.desmos.com/calculator/wi6kmo3pz0&quot;&gt;calculator on Desmos&lt;/a&gt;!&lt;br /&gt;
+&lt;img src=&quot;images/Desktop Screenshot 2022.01.08 - 00.45.18.49.png&quot; alt=&quot;screenshot-desmos&quot; /&gt;&lt;br /&gt;
 That’s how it’s supposed to look with the semi-graphical selector.&lt;br /&gt;
 Zoom and drag around if you can’t see it.&lt;br /&gt;
 You can inspect the formulae and data used in them under collapsible folders.&lt;br /&gt;
-Current version (4) doesn’t account for conflicts and multiple effects of the same tier.&lt;/p&gt;
+Current version (5) doesn’t account for conflicts and multiple effects of the same tier.&lt;/p&gt;
 
 &lt;h2 id=&quot;deal-example&quot;&gt;Deal example&lt;/h2&gt;
 
